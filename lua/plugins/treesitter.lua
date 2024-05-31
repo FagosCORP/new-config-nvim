@@ -5,8 +5,8 @@ return {
     local config = require("nvim-treesitter.configs")
     config.setup({
       auto_install = true,
-      ighlight = { enabled = true },
-      indent = { enabled = true }
+      highlight = { enable = true },
+      indent = { enable = true }
     })
   end
 }
